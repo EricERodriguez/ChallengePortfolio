@@ -1,0 +1,363 @@
+/*-------------------
+/*--------global---------
+--------------------*/
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+body {
+    background: #13141D !important;
+    color: #fff !important;
+}
+
+#cardStyle {
+    background-color: #1B1C29;
+    border-radius: 2% !important;
+}
+
+
+/*-------------------
+/*--------NavBar---------
+--------------------*/
+
+
+/*-------------------
+/*--------varios---------
+--------------------*/
+
+.card-distributed {
+    background-color: #1B1C29;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 10px 1px;
+    margin-top: 10px;
+}
+
+#ericCirce {
+    width: 20%;
+    border-radius: 50% !important;
+    border: 1px solid #23c167dc;
+}
+
+#ericCirc {
+    width: 40%;
+    border-radius: 50% !important;
+    border: 1px solid #23c167dc;
+}
+
+#firstDiv {
+    margin-top: 5%;
+}
+
+
+/*-------------------
+/*--------portafolio---------
+--------------------*/
+
+.item:hover .item-overlay.bottom {
+    bottom: 0;
+}
+
+.item-overlay {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #23c167dc;
+    color: rgb(255, 255, 255);
+    overflow: hidden;
+    text-align: center;
+    width: 100%;
+    -moz-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+    -webkit-transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+    transition: top 0.3s, right 0.3s, bottom 0.3s, left 0.3s;
+}
+
+.item-overlay.top {
+    top: 100%;
+}
+
+.item-overlay.bottom {
+    bottom: 100%;
+}
+
+.item {
+    position: relative;
+    border: 1px solid #333;
+    float: left;
+    margin: 2%;
+    overflow: hidden;
+    width: 21%;
+    max-width: 540px;
+    border-radius: 20px;
+}
+
+.item img {
+    max-width: 100%;
+}
+
+
+/*-------------------
+/*--------education---------
+--------------------*/
+
+.rightbox {
+    /* padding: 0em 34rem 0em 0em; */
+    height: 100%;
+}
+
+.rb-container {
+    font-family: "PT Sans", sans-serif;
+    width: 30%;
+    margin: auto;
+    display: block;
+    /* position: relative; */
+}
+
+.rb-container ul.rb {
+    margin: 2.5em 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.rb-container ul.rb li {
+    list-style: none;
+    margin: auto;
+    /* margin-left: 10em; */
+    /* min-height: 50px; */
+    border-left: 1px dashed #fff;
+    padding: 0 0 50px 30px;
+    position: relative;
+}
+
+.rb-container ul.rb li:last-child {
+    border-left: 0;
+}
+
+.rb-container ul.rb li::before {
+    position: absolute;
+    left: -18px;
+    top: -5px;
+    content: " ";
+    border: 8px solid rgba(255, 255, 255, 1);
+    border-radius: 500%;
+    background: #50d890;
+    height: 20px;
+    width: 20px;
+    transition: all 500ms ease-in-out;
+}
+
+.rb-container ul.rb li:hover::before {
+    border-color: #232931;
+    transition: all 1000ms ease-in-out;
+}
+
+ul.rb li .timestamp {
+    color: #50d890;
+    position: relative;
+    width: 100px;
+    font-size: 12px;
+}
+
+.item-title {
+    color: rgb(255, 255, 255);
+}
+
+input::placeholder {
+    padding: 5em 5em 1em 1em;
+    color: #50d890;
+}
+
+
+/*-------------------
+/*--------badged---------
+--------------------*/
+
+#oracle {
+    filter: drop-shadow(0 1px 5px rgba(255, 255, 255, 0.7));
+}
+
+@media (max-width: 575px) {
+    #salesforce {
+        margin-left: 0 !important;
+        text-align: center !important;
+        align-items: center !important;
+    }
+    .container {
+        margin-top: 20%;
+    }
+}
+
+
+/*-------------------
+/*--------footer---------
+--------------------*/
+
+.footer-distributed {
+    background-color: #1B1C29;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 55px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 40%;
+}
+
+
+/* The company logo */
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px "Cookie", cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: #5383d3;
+}
+
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+    padding: 0;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #5383d3;
+    text-decoration: none;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #33383b;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+    .footer-distributed {
+        font: bold 14px sans-serif;
+    }
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+}
