@@ -8,9 +8,18 @@ body {
     color: #fff !important;
 }
 
-#cardStyle {
-    background-color: #1B1C29;
+#cardStyle,
+#salesforcet {
+    background-color: #1B1C29 !important;
     border-radius: 2% !important;
+}
+
+#fontGreen {
+    color: #23c167dc;
+}
+
+a:hover {
+    color: #23c167dc
 }
 
 
@@ -184,9 +193,17 @@ input::placeholder {
         margin-left: 0 !important;
         text-align: center !important;
         align-items: center !important;
+        margin-left: 30% !important;
     }
     .container {
         margin-top: 20%;
+    }
+    #salesforcet {
+        background-color: #1B1C29 !important;
+        margin-left: 0 !important;
+        text-align: center !important;
+        align-items: center !important;
+        margin-left: -1% !important;
     }
 }
 
@@ -340,6 +357,11 @@ input::placeholder {
     line-height: 35px;
     margin-right: 3px;
     margin-bottom: 5px;
+}
+
+#icono:hover {
+    color: #50d890;
+    zoom: 1.3;
 }
 
 
