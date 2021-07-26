@@ -44,19 +44,62 @@ a:hover {
 }
 
 #ericCirce {
-    width: 20%;
+    width: 15%;
     border-radius: 50% !important;
     border: 1px solid #23c167dc;
 }
 
 #ericCirc {
-    width: 40%;
-    border-radius: 50% !important;
-    border: 1px solid #23c167dc;
+    width: 60%;
+    border: 2px solid #23c167dc;
+    padding: 1%;
+    margin-left: 20%;
+    z-index: 1000;
 }
 
 #firstDiv {
     margin-top: 5%;
+}
+
+
+/*-------------------
+/*--------Figuras geometricas---------
+--------------------*/
+
+.trapecio {
+    width: 100%;
+    height: 0;
+    margin-bottom: -31.74%;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-bottom: 120px solid #23c1672d;
+}
+
+.trapecio-top {
+    width: 100%;
+    height: 0px;
+    margin-top: -31.74%;
+    border-right: 60px solid transparent;
+    border-left: 60px solid transparent;
+    border-top: 120px solid #23c1672d;
+}
+
+#paralelograma {
+    margin-top: 5%;
+    margin-left: -15%;
+    padding-top: 1%;
+    padding-left: 0.7%;
+    width: 30%;
+    height: 50%;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    background: #23c1672d;
+}
+
+footer {
+    height: 100%;
+    background: linear-gradient(to bottom right, transparent 49.5%, #13141D 50%) right/100% 100% no-repeat;
 }
 
 
@@ -204,6 +247,23 @@ input::placeholder {
         text-align: center !important;
         align-items: center !important;
         margin-left: -1% !important;
+    }
+    #paralelograma {
+        margin-top: 10%;
+        margin-left: -23%;
+        padding-top: 1%;
+        padding-left: 0.7%;
+        width: 40%;
+        height: 10%;
+        -webkit-transform: skew(20deg);
+        -moz-transform: skew(20deg);
+        -o-transform: skew(20deg);
+        background: #23c1672d;
+    }
+    #ericCirce {
+        width: 30%;
+        border-radius: 50% !important;
+        border: 1px solid #23c167dc;
     }
 }
 
