@@ -22,6 +22,14 @@ a:hover {
     color: #23c167dc
 }
 
+#link {
+    color: #23c167a2;
+}
+
+#link:hover {
+    color: #23c167dc;
+}
+
 
 /*-------------------
 /*--------NavBar---------
