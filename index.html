@@ -31,7 +31,7 @@
             <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse navsinmargin" id="navbarSupportedContent" style="margin-left: 50%;">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#" style="color: #0EAC53;">Home</a>
@@ -50,7 +50,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="collapse navbar-collapse " id="navbarSupportedContent" style="margin-right: -50%;">
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">En</button>
 
             </div>
@@ -147,16 +147,16 @@
     ==================== -->
 
 
-    <div class="container">
+    <div class="container ">
 
-        <div class="box">
-            <div class="container-3">
-                <h2 style="text-align: center" id="edu" class="box p-4">Educación</h2>
+        <div class="box ">
+            <div class="container-3 ">
+                <h2 style="text-align: center" id="edu" class="box p-4 ">Educación</h2>
             </div>
         </div>
 
 
-        <div class="container">
+        <div class="container animated fadeIn">
             <div style="display: flex; align-items: center; justify-content: center;">
                 <div class="row g-0">
                     <div class="col-md-4">
@@ -356,7 +356,7 @@
     <!-- ==================
     ----------Proyectos----------
     ==================== -->
-    <div class="container p-6" id="cardStyle">
+    <div class="container p-6 " id="cardStyle">
         <div class="container-fluid" id="exp">
             <h2 style="text-align: center">Proyectos</h2>
             <div class="card-group m-4">
@@ -365,8 +365,8 @@
                         <img src="/assets/image/rollingwebboot.png">
                         <div class="item-overlay bottom p-2">
                             <p>Proyecto web Bootstrap - css - html5</p>
-                            <a href="https://centro-medico-rollingcode.netlify.app/secciones/aboutus" target="_blank"> <button type="button" class="btn btn-outline-warning">Abrir proyecto</button></a>
-                            <a href="https://github.com/EricERodriguez/06-BOOTSTRAP-LAYAOUT-MODAL" target="_blank"> <button type="button" class="btn btn-outline-danger">Abrir Git</button></a>
+                            <a href="https://centro-medico-rollingcode.netlify.app/secciones/aboutus" target="_blank"> <button type="button" class="btn btn-outline-warning" id="butgitpro">Abrir proyecto</button></a>
+                            <a href="https://github.com/EricERodriguez/06-BOOTSTRAP-LAYAOUT-MODAL" target="_blank"> <button type="button" class="btn btn-outline-danger" id="butgitpro">Abrir Git</button></a>
                         </div>
                     </div>
                 </div>
@@ -376,8 +376,8 @@
                         <div class="item-overlay bottom p-2">
                             <p>Proyecto React: Ta - te - ti</p>
                             <p style="text-align: center;">
-                                <a href="https://react-tateti.netlify.app/" target="_blank"> <button type="button" class="btn btn-outline-warning">Abrir proyecto</button></a>
-                                <a href="https://github.com/EricERodriguez/TATETI-V2" target="_blank"> <button type="button" class="btn btn-outline-danger">Abrir Git</button></a>
+                                <a href="https://react-tateti.netlify.app/" target="_blank"> <button type="button" class="btn btn-outline-warning" id="butgitpro">Abrir proyecto</button></a>
+                                <a href="https://github.com/EricERodriguez/TATETI-V2" target="_blank"> <button type="button" class="btn btn-outline-danger" id="butgitpro">Abrir Git</button></a>
                             </p>
 
                         </div>
@@ -389,8 +389,8 @@
                         <div class="item-overlay bottom p-2">
                             <p>Proyecto ReactNative: Un pet shop</p>
                             <a href="https://appetize.io/embed/xc1w6f1krd589zhp22a0mgftyw?autoplay=false&debug=true&device=pixel4&deviceColor=black&embed=true&launchUrl=exp:%2F%2Fexp.host%2F@eric92rodriguez%2F097637%2Bu!P6p5oq79&orientation=portrait&scale=81&screenOnly=false&xDocMsg=true&xdocMsg=true&params=%7B%22EXKernelLaunchUrlDefaultsKey%22:%22exp:%2F%2Fexp.host%2F@eric92rodriguez%2F097637%2Bu!P6p5oq79%22,%22EXKernelDisableNuxDefaultsKey%22:true%7D&osVersion=10.0"
-                                target="_blank"> <button type="button" class="btn btn-outline-warning">Abrir proyecto</button></a>
-                            <a href="https://github.com/EricERodriguez/myshop" target="_blank"> <button type="button" class="btn btn-outline-danger">Abrir Git</button></a>
+                                target="_blank"> <button type="button" class="btn btn-outline-warning" id="butgitpro">Abrir proyecto</button></a>
+                            <a href="https://github.com/EricERodriguez/myshop" target="_blank"> <button type="button" class="btn btn-outline-danger" id="butgitpro">Abrir Git</button></a>
                         </div>
                     </div>
                 </div>
@@ -405,12 +405,12 @@
 
 
 
-    <div class="container p-2" id="cardStyle">
+    <div class="container p-2 animated fadeIn" id="cardStyle">
         <div class="container-fluid " id="badg">
             <h2 style="text-align: center">Oracle insignias</h2>
             <div class="card-group m-4">
                 <div class="card " style="border:none" id="cardStyle">
-                    <a class="badged" href="https://learn.oracle.com/ols/learning-path/java-explorer/40805/79726" target="_blank"><img src="/assets/image/oracle/java.png" style="width: 100%;" id="oracle"></a>
+                    <a class="badged " href="https://learn.oracle.com/ols/learning-path/java-explorer/40805/79726" target="_blank"><img src="/assets/image/oracle/java.png" style="width: 100%;" id="oracle"></a>
                 </div>
                 <div class="card" style="border:none" id="cardStyle">
                     <a class="badged" href="https://learn.oracle.com/ols/learning-path/mysql-explorer/51871/79674" target="_blank" rel="noopener noreferrer"><img src="/assets/image/oracle/MySql .png" style="width: 100%;" id="oracle"></a>
@@ -453,7 +453,7 @@
     <!-- ==================
     ----------footer----------
     ==================== -->
-    <footer class="footer-distributed">
+    <footer class="footer-distributed animated fadeIn">
 
 
         <div class="footer-left">
