@@ -251,16 +251,9 @@ a:hover {
 
 .navbar {
     opacity: 80%;
-    /* width: 100%;
-    text-align: center !important; */
 }
 
 
-/* 
-nav ul {
-    float: none !important;
-    display: inline-block !important;
-} */
 
 
 /*-------------------
@@ -496,7 +489,6 @@ input::placeholder {
     .navsinmargin {
         margin-left: -5% !important;
         text-align: center !important;
-        /* align-items: center !important; */
     }
     #ericCirce {
         width: 30%;
@@ -544,7 +536,7 @@ input::placeholder {
 }
 
 
-/* The company logo */
+/* logo */
 
 .footer-distributed h3 {
     color: #ffffff;
